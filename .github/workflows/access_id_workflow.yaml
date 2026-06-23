@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: variable-check
-        run: echo "The ACCESS_ID is ${{vars.ACCESS_ID}}  #variable added
+        run: echo "The ACCESS_ID is ${{vars.ACCESS_ID}}"
         
