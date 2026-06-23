@@ -1,0 +1,13 @@
+name: variable-check
+
+on:
+ push:
+  branches:
+    - main
+jobs:
+  variable-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: variable-check
+        run: echo "The ACCESS_ID is ${{vars.ACCESS_ID}}
+        
